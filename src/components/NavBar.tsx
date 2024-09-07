@@ -18,10 +18,10 @@ export default function NavBar() {
 
   return (
     <>
-      <div className=" w-full z-10 sticky top-[1.5rem] flex justify-center items-center">
-        <div className=" bg-white/50 backdrop-filter backdrop-blur-md rounded-xl  h-[5rem] w-[95%] items-center flex justify-between lg:pl-[5rem] lg:pr-[5rem]">
+      <div className=" w-full z-10 sticky top-[1rem] sm:top-[1.5rem] flex justify-center items-center">
+        <div className=" bg-white/50 backdrop-filter backdrop-blur-md rounded-xl h-[4rem]  lg:h-[5rem] w-[95%] items-center flex justify-between pl-[1rem] pr-[1rem] lg:pl-[5rem] lg:pr-[5rem]">
           <div>
-            <Image src={logo} alt="" className="w-[4rem]" />
+            <Image src={logo} alt="" className="w-[3rem] lg:w-[4rem]" />
           </div>
           <ul className="hidden lg:flex gap-6 font-metrapolis-light justify-around">
             <Link href={"/"}>
