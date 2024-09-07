@@ -14,12 +14,12 @@ export default function Home() {
   return (
     <>
       <MeaTitle />
-      <div className="w-full flex items-center justify-around h-[100vh]">
-        <div className="flex justify-center gap-5 w-1/2 flex-col">
-          <p className="text-[2rem] font-metrapolis-semibold">
+      <div className="w-full flex items-center flex-wrap justify-around h-max mb-10 gap-5">
+        <div className="flex justify-center flex-wrap gap-5 p-5  ma:p-1 ma:w-1/2 flex-col">
+          <p className="text-xl sm:text-2xl md:text-3xl font-metrapolis-semibold">
             Mechanical Engineering Association
           </p>
-          <p className="text-[#777777] font-poppins text-justify">
+          <p className="text-[#777777] font-poppins text-md sm:text-lg text-justify">
             MEA is an organization solely focused on creating and sustaining a
             community of students that encourage thought and learning through
             interaction with fellow students giving them technical knowledge and
@@ -34,10 +34,12 @@ export default function Home() {
           </p>
           <div className="colbar w-full h-[2rem] animate-colchange  rounded-full"></div>
           <div className="flex justify-between font-bold w-full items-center">
-            <button className="bg-black p-2 rounded-xl  text-[0.8rem]  text-white ">
-              <p className="w-[8rem] inline-block">GET IN TOUCH</p>
+            <button className="bg-black p-1 sm:p-2 rounded-xl  text-[0.8rem]  text-white ">
+              <p className="w-[7rem] sm:w-[8rem] inline-block text-[0.8rem] ">
+                GET IN TOUCH
+              </p>
             </button>
-            <p>FOLLOW US</p>
+            <p className="text-[0.8rem]">FOLLOW US</p>
             <div className="flex justify-center items-center gap-3">
               <FaInstagram size={25} className="social-link" />
               {/* <TiSocialInstagram size={25} /> */}
@@ -47,14 +49,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="p-1 hidden ma:block">
           <Image src={home} alt="" />
         </div>
       </div>
 
-      <div className="w-full h-[15rem]  flex justify-center items-center">
-        <div className="w-[95%] h-full grid grid-cols-3 justify-between gap-5 p-8 items-center justify-items-center rounded-[1rem] bg-[#cacaca]">
-          <div className="gap-3 flex flex-col col-span-1">
+      <div className="w-full h-max flex justify-center items-center">
+        <div className="w-[95%] h-full flex flex-col sm:flex-row  justify-between gap-5 p-8 sm:items-center  rounded-[1rem] bg-[#cacaca]">
+          <div className="gap-3 sm:w-1/3 flex flex-col col-span-1">
             <h1 className="font-poppins font-bold -tracking-[0.84px]">
               OUR MISSION
             </h1>
@@ -64,7 +66,7 @@ export default function Home() {
               proferssors
             </p>
           </div>
-          <div className="gap-3 flex flex-col col-span-1">
+          <div className="gap-3 flex flex-col sm:w-1/3">
             <h1 className="font-poppins font-bold -tracking-[0.84px]">
               OUR VISION
             </h1>
@@ -75,7 +77,7 @@ export default function Home() {
               iii) Improve the experience of every student
             </p>
           </div>
-          <div className="gap-3 flex flex-col">
+          <div className="gap-3 flex flex-col sm:w-1/3">
             <h1 className="font-poppins font-bold -tracking-[0.84px]">
               WHY US
             </h1>
