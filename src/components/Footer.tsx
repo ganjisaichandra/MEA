@@ -13,7 +13,7 @@ import logo from "../assets/images/Ellipse 2.png";
 export default function Footer() {
   return (
     <>
-      <div className="w-full flex flex-col h-[21rem] overflow-clip bg-black mt-[2rem]">
+      <div className="w-full flex flex-col h-[22rem] overflow-clip bg-black mt-[2rem] p-2">
         <div className="w-full grid grid-cols-2 justify-items-center h-[16.5rem] p-2 items-center">
           <Image src={logo} className="w-[7.5rem] " alt="" />
           <div className="flex flex-col gap-5">

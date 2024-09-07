@@ -5,7 +5,7 @@ import logo from "../assets/images/Ellipse 1.png";
 export default function NavBar() {
   return (
     <>
-      <div className="w-full z-10 sticky top-[1.5rem] flex justify-center items-center">
+      <div className="hidden w-full z-10 sticky top-[1.5rem] sm:flex justify-center items-center">
         <div className=" bg-white/50 backdrop-filter backdrop-blur-md rounded-xl  h-[5rem] w-[95%] items-center flex justify-between pl-[5rem] pr-[5rem]">
           <div>
             <Image src={logo} alt="" className="w-[4rem]" />

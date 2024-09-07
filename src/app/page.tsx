@@ -15,11 +15,11 @@ export default function Home() {
     <>
       <MeaTitle />
       <div className="w-full flex items-center flex-wrap justify-around h-max mb-10 gap-5">
-        <div className="flex justify-center flex-wrap gap-5 p-5  ma:p-1 ma:w-1/2 flex-col">
-          <p className="text-xl sm:text-2xl md:text-3xl font-metrapolis-semibold">
+        <div className="flex justify-center flex-wrap gap-5 p-3 sm:p-5  ma:p-1 ma:w-1/2 flex-col">
+          <p className="text-[1.2rem] sm:text-2xl md:text-3xl font-metrapolis-semibold">
             Mechanical Engineering Association
           </p>
-          <p className="text-[#777777] font-poppins text-md sm:text-lg text-justify">
+          <p className="text-[#777777] font-poppins text-[0.9rem] sm:text-lg text-justify">
             MEA is an organization solely focused on creating and sustaining a
             community of students that encourage thought and learning through
             interaction with fellow students giving them technical knowledge and
@@ -34,18 +34,30 @@ export default function Home() {
           </p>
           <div className="colbar w-full h-[2rem] animate-colchange  rounded-full"></div>
           <div className="flex justify-between font-bold w-full items-center">
-            <button className="bg-black p-1 sm:p-2 rounded-xl  text-[0.8rem]  text-white ">
-              <p className="w-[7rem] sm:w-[8rem] inline-block text-[0.8rem] ">
+            <button className="bg-black p-1 sm:p-2 rounded-xl  text-white ">
+              <p className="w-[6rem] sm:w-[8rem] inline-flex items-center justify-center text-[0.6rem] sm:text-[1rem] ">
                 GET IN TOUCH
               </p>
             </button>
-            <p className="text-[0.8rem]">FOLLOW US</p>
+            <p className="text-[0.7rem] sm:text-[1rem]">FOLLOW US</p>
             <div className="flex justify-center items-center gap-3">
-              <FaInstagram size={25} className="social-link" />
+              <FaInstagram
+                size={25}
+                className="social-link scale:80 sm:scale:100"
+              />
               {/* <TiSocialInstagram size={25} /> */}
-              <TiSocialFacebook size={25} className="social-link" />
-              <TiSocialLinkedin size={25} className="social-link" />
-              <TiSocialYoutube size={25} className="social-link" />
+              <TiSocialFacebook
+                size={25}
+                className="social-link scale:80 sm:scale:100"
+              />
+              <TiSocialLinkedin
+                size={25}
+                className="social-link scale:80 sm:scale:100"
+              />
+              <TiSocialYoutube
+                size={25}
+                className="social-link scale:80 sm:scale:100"
+              />
             </div>
           </div>
         </div>
