@@ -30,6 +30,9 @@
   .social-link {
     @apply hover:text-white p-[0.2rem] duration-150 hover:bg-[#2A4B8A] rounded-full hover:border-[#ff2b06] border-black border;
   }
+  .side-link {
+    @apply hover:text-gray-200 duration-[500ms];
+  }
 }
 
 @layer utilities {
@@ -96,4 +99,14 @@
 
 .animate-rotateText {
   animation: rotateText 6s ease-in-out infinite;
+}
+#sideBar:has(li:hover) .side-link:not(:hover) {
+  /* scale: 0.8; */
+  opacity: 0.7;
+  font-weight: 100;
+  /* duration: 100; */
+  /* animation-duration: 1s; */
+  font-color: grey;
+  font-weight: 100;
+  ransition-timing-function: ease-in-out;
 }

@@ -4,7 +4,7 @@ import logo from "../../assets/images/logo final mea 1.png";
 export default function page() {
   return (
     <>
-      <div className="w-full h-[45rem] p-10 flex justify-around gap-2 flex-wrap md:flex-nowrap items-center">
+      <div className="w-full min-h-[45rem] h-max p-10 flex justify-around gap-2 flex-wrap md:flex-nowrap items-center">
         <div className="md:w-1/4">
           <Image src={logo} alt="" className="scale-90 " />
         </div>
