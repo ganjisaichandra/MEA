@@ -1,33 +1,99 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/* :root { */
+/*   --foreground-rgb: 0, 0, 0; */
+/*   --background-start-rgb: 214, 219, 220; */
+/*   --background-end-rgb: 255, 255, 255; */
+/* } */
+/**/
+/* @media (prefers-color-scheme: dark) { */
+/*   :root { */
+/*     --foreground-rgb: 255, 255, 255; */
+/*     --background-start-rgb: 0, 0, 0; */
+/*     --background-end-rgb: 0, 0, 0; */
+/*   } */
+/* } */
+/**/
+/* body { */
+/*   color: rgb(var(--foreground-rgb)); */
+/*   background: linear-gradient( */
+/*       to bottom, */
+/*       transparent, */
+/*       rgb(var(--background-end-rgb)) */
+/*     ) */
+/*     rgb(var(--background-start-rgb)); */
+/* } */
+/**/
+@layer components {
+  .social-link {
+    @apply hover:text-white p-[0.2rem] duration-150 hover:bg-[#2A4B8A] rounded-full hover:border-[#ff2b06] border-black border;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: "metrapolis-light";
+  src: url("../fonts/metrapolis/Metropolis-Light.otf");
+}
+@font-face {
+  font-family: "metrapolis-semibold";
+  src: url("../fonts/metrapolis/Metropolis-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "metrapolis-bold";
+  src: url("../fonts/metrapolis/Metropolis-Bold.otf");
+}
+.colbar {
+  background: linear-gradient(
+    90deg,
+    #3a3a3a,
+    #fd0000,
+    #9747ff,
+    #2a4b8a,
+    #fd0000
+  );
+  background-size: 300% 300%;
+  animation: colchange 12s linear infinite;
+}
+
+@keyframes colchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes rotateText {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(-4.5rem);
+  }
+  50%,
+  70% {
+    transform: translateY(-9rem);
+  }
+  75%,
+  100% {
+    transform: translateY(0); /* Loops back to the start */
+  }
+}
+
+.animate-rotateText {
+  animation: rotateText 6s ease-in-out infinite;
 }
