@@ -29,9 +29,13 @@ const facultyData: facultyDataType = [
 
 const page = () => {
   return (
-    <div className=" text-white min-h-screen relative p-4">
-      <div className="flex flex-col sm:flex-row min-h-screen relative justify-center top-20">
-        <div className="w-full p-6">
+    <div className=" min-h-screen relative p-4 mb-20">
+      <div className="flex  min-h-screen relative justify-center ">
+        <div className="w-full p-5">
+          <p className=" text-[2rem] sm:text-[3rem] font-metrapolis-light">
+            {" "}
+            FACULTY
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {facultyData.map((faculty, index) => (
               <div
