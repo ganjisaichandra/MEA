@@ -17,10 +17,10 @@ export default function EventCards(card: eventCard) {
     <>
       <div className="w-1/2 relative min-w-[18rem] bg-[#606060] h-[12rem] min-h-max p-6  rounded-md shadow-xl">
         <div
-          className={`absolute w-[2rem] h-full  flex items-center rounded-full  shadow-xl top-0 ${card.index % 2 === 1 ? "left-0" : "right-0"}`}
+          className={`absolute w-[2rem] h-full  flex items-center rounded-full  top-0 ${card.index % 2 === 1 ? "left-0" : "right-0"}`}
         >
           <div
-            className={`w-[2rem] h-[2rem] bg-black border-[0.3rem] border-white  rounded-full ${card.index % 2 == 1 ? "-translate-x-3" : "translate-x-3"}`}
+            className={`w-[2rem] h-[2rem] bg-black border-[0.3rem] border-white shadow-2xl rounded-full ${card.index % 2 == 1 ? "-translate-x-3" : "translate-x-3"}`}
           ></div>
         </div>
         <div className="bg-[#D9D9D9] w-full h-full min-h-max flex rounded-md gap-2 justify-around items-center">
