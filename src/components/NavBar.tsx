@@ -50,9 +50,13 @@ export default function NavBar() {
             </Link>
           </ul>
           {/* <div> */}
-          <button className="bg-[#7D7D7D] hidden lg:inline-flex justify-center items-center rounded-[2rem] h-[3rem] w-[6.5rem] text-white">
-            E-Library
-          </button>
+          <Link href={"/Elibrary"}>
+            {" "}
+            <button className="bg-[#7D7D7D] hidden lg:inline-flex justify-center items-center rounded-[2rem] h-[3rem] w-[6.5rem] text-white hover:bg-blue-700 hover:scale-95 duration-150">
+              E-Library
+            </button>
+          </Link>
+
           {/* </div> */}
           {/* <div> */}
           {/*   <p className="font-metrapolis-semibold text-[0.8rem]"> */}
@@ -73,7 +77,7 @@ export default function NavBar() {
         id="sideBar"
         className="w-[20rem] translate-x-[20rem] h-[100vh] bg-black fixed top-0 right-0  flex lg:hidden transform-all duration-150 z-20"
       >
-        <ul className=" text-white h-full w-full flex-col flex justify-center gap-2 items-center  text-[1.5rem] font-medium">
+        <ul className=" text-white h-full w-full flex-col flex justify-center gap-3 items-center  text-[1rem] sm:text-[1.5rem] font-medium">
           <li>
             <IoIosClose
               onClick={() => setIsOpen(false)}
@@ -99,9 +103,14 @@ export default function NavBar() {
           <li className="side-link">
             <Link href="/Executives">EXECUTIVES</Link>
           </li>
-          <button className="bg-[#7D7D7D]  rounded-[2rem] h-[3rem] w-[60%] text-white">
-            E-Library
-          </button>
+          <Link
+            href={"/Elibrary"}
+            className="w-full inline-flex justify-center"
+          >
+            <button className="bg-[#7D7D7D]  rounded-[2rem] h-[3rem] w-[60%] text-white">
+              E-Library
+            </button>{" "}
+          </Link>
         </ul>
       </div>
     </>
