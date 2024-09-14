@@ -86,24 +86,37 @@ export default function NavBar() {
             />
           </li>
           <li className="side-link">
-            <Link href="/">HOME</Link>
+            <Link onClick={() => setIsOpen(false)} href="/">
+              HOME
+            </Link>
           </li>
           <li className="side-link">
-            <Link href="/Faculty">FACULTY</Link>
+            <Link href="/Faculty" onClick={() => setIsOpen(false)}>
+              FACULTY
+            </Link>
           </li>
           <li className="side-link">
-            <Link href="/Events">EVENTS</Link>
+            <Link href="/Events" onClick={() => setIsOpen(false)}>
+              EVENTS
+            </Link>
           </li>
           <li className="side-link">
-            <Link href="/Magazine">MAGAZINE</Link>
+            <Link onClick={() => setIsOpen(false)} href="/Magazine">
+              MAGAZINE
+            </Link>
           </li>
           <li className="side-link">
-            <Link href="/About">ABOUT</Link>
+            <Link onClick={() => setIsOpen(false)} href="/About">
+              ABOUT
+            </Link>
           </li>
           <li className="side-link">
-            <Link href="/Executives">EXECUTIVES</Link>
+            <Link onClick={() => setIsOpen(false)} href="/Executives">
+              EXECUTIVES
+            </Link>
           </li>
           <Link
+            onClick={() => setIsOpen(false)}
             href={"/Elibrary"}
             className="w-full inline-flex justify-center"
           >
