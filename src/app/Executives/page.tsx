@@ -18,7 +18,7 @@ type executives = {
 }[];
 const sec: secretory = [
   {
-    name: "NA",
+    name: "Viswanadha Reddy",
     role: "secretory",
     image: im,
   },
@@ -60,9 +60,9 @@ const page = () => {
               <Image
                 src={exe.image}
                 alt={exe.name}
-                width={12}
-                height={12}
-                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-black"
+                width={0}
+                height={0}
+                className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-black filter brightness-110 contrast-125"
               />
               <div className="w-full">
                 <h3 className="text-lg font-semibold mb-2 text-center text-white">
@@ -86,7 +86,7 @@ const page = () => {
                   alt={exe.name}
                   width={12}
                   height={12}
-                  className="w-32 h-32 object-cover rounded-full mx-auto mb-4 border-4 border-black"
+                  className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-black"
                 />
                 <div className="w-full">
                   <h3 className="text-lg font-semibold mb-2 text-center text-white">

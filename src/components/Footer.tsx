@@ -23,23 +23,29 @@ export default function Footer() {
             <div className="flex flex-wrap  gap-10">
               <div className="font-poppins font-bold text-[#777777]">
                 <p className="items-center  flex gap-2 hover:text-[#FF0000] duration-150">
-                  <MdOutlineLink /> Nit Andhra Pradesh
+                  <MdOutlineLink />
+                  <a href="https://nitandhra.ac.in/main/">
+                    Nit Andhra Pradeshs
+                  </a>
                 </p>
 
                 <p className="inline-flex gap-2 justify-center items-center hover:text-[#FF0000] duration-150">
-                  <IoMailOutline /> mea@nitandhra.ac.in
+                  <IoMailOutline />
+                  <a href="maito:mea.nitandhrapradesh@gmail.com">
+                    mea.nitandhrapradesh@gmail.com
+                  </a>
                 </p>
               </div>
               <div className="font-poppins flex flex-col font-bold text-[#777777]">
-                <p className="inline-flex items-center">
+                <p className="inline-flex items-center hover:text-[#FF0000]">
                   {" "}
                   <IoIosArrowForward size={15} color="#fff" /> FAQ'S
                 </p>
-                <p className="inline-flex items-center">
+                <p className="inline-flex items-center hover:text-[#FF0000]">
                   {" "}
                   <IoIosArrowForward size={15} color="#fff" /> Site Map
                 </p>
-                <p className="inline-flex items-center">
+                <p className="inline-flex items-center hover:text-[#FF0000]">
                   {" "}
                   <IoIosArrowForward size={15} color="#fff" /> Contact Us
                 </p>
@@ -51,18 +57,19 @@ export default function Footer() {
           <p className="font-poppins text-white font-light text-center w-full md:w-max text-opacity-50 ">
             © Copyright 2024. All Rights Reserved.
           </p>
-          <div className="flex text-[0.8rem] font-metrapolis-bold text-white justify-center flex-wrap w-full md:w-max items-center gap-4">
-            <p className="flex gap-2 items-center">
-              <FaInstagram size={15} /> INSTAGRAM{" "}
+          <div className="flex text-[0.8rem] font-metrapolis-bold text-white justify-center flex-wrap w-full md:w-max items-center gap-4 ">
+            <p className="flex gap-2 items-center hover:text-[#FF0000]">
+              <FaInstagram size={15} />{" "}
+              <a href="https://www.instagram.com/mea_nitandhra/">INSTAGRAM</a>
             </p>
             {/* <TiSocialInstagram size={25} /> */}
-            <p className="flex gap-2 items-center">
+            <p className="flex gap-2 items-center hover:text-[#FF0000]">
               <TiSocialFacebook size={15} /> FACEBOOK
             </p>{" "}
-            <p className="flex gap-2 items-center">
+            <p className="flex gap-2 items-center hover:text-[#FF0000]">
               <TiSocialLinkedin size={15} /> LINKED IN
             </p>{" "}
-            <p className="flex gap-2 items-center">
+            <p className="flex gap-2 items-center hover:text-[#FF0000]">
               <TiSocialYoutube size={15} /> YOUTUBE
             </p>
           </div>
