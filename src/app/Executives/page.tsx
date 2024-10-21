@@ -23,19 +23,55 @@ const sec: secretory = [
     image: im,
   },
   {
-    name: "NA",
+    name: "Maitri chakarabarthy",
     role: "secretory",
     image: im,
   },
 ];
 const cosec: cosecretory = [
   {
-    name: "NA",
+    name: "Bolla Gowtham",
+    role: "co-secretory",
+    image: im,
+  },
+  {
+    name: "Bolla Gowtham",
+    role: "co-secretory",
+    image: im,
+  },
+  {
+    name: "Bolla Gowtham",
+    role: "co-secretory",
+    image: im,
+  },
+  {
+    name: "Bolla Gowtham",
     role: "co-secretory",
     image: im,
   },
 ];
 const exec: executives = [
+  {
+    name: "NA",
+    role: "executive",
+    image: im,
+  },
+
+  {
+    name: "NA",
+    role: "executive",
+    image: im,
+  },
+  {
+    name: "NA",
+    role: "executive",
+    image: im,
+  },
+  {
+    name: "NA",
+    role: "executive",
+    image: im,
+  },
   {
     name: "NA",
     role: "executive",
