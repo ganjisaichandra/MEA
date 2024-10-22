@@ -46,7 +46,7 @@ export default function NavBar() {
             </Link>
             <Link href={"/Executives"}>
               {" "}
-              <li>EXECUTIVES</li>
+              <li>MEMBERS</li>
             </Link>
           </ul>
           {/* <div> */}
@@ -112,7 +112,7 @@ export default function NavBar() {
           </li>
           <li className="side-link">
             <Link onClick={() => setIsOpen(false)} href="/Executives">
-              EXECUTIVES
+              MEMBERS
             </Link>
           </li>
           <Link

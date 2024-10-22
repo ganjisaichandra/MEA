@@ -24,14 +24,12 @@ export default function Footer() {
               <div className="font-poppins font-bold text-[#777777]">
                 <p className="items-center  flex gap-2 hover:text-[#FF0000] duration-150">
                   <MdOutlineLink />
-                  <a href="https://nitandhra.ac.in/main/">
-                    Nit Andhra Pradeshs
-                  </a>
+                  <a href="https://nitandhra.ac.in/main/">Nit Andhra Pradesh</a>
                 </p>
 
                 <p className="inline-flex gap-2 justify-center items-center hover:text-[#FF0000] duration-150">
                   <IoMailOutline />
-                  <a href="maito:mea.nitandhrapradesh@gmail.com">
+                  <a href="mailto:mea.nitandhrapradesh@gmail.com">
                     mea.nitandhrapradesh@gmail.com
                   </a>
                 </p>

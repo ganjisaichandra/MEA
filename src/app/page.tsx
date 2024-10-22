@@ -73,9 +73,9 @@ export default function Home() {
               OUR MISSION
             </h1>
             <p className="text-[#777777] font-poppins font-light">
-              To make an Environment for each and every student of the
-              department to Make them engaged witht the juniors , seniors and
-              proferssors
+              To create an engaging, technology-focused learning environment
+              that inspires students to collaborate, innovate, and achieve
+              excellence in mechanical engineering.
             </p>
           </div>
           <div className="gap-3 flex flex-col sm:w-1/3">
@@ -83,10 +83,10 @@ export default function Home() {
               OUR VISION
             </h1>
             <p className="text-[#777777] font-poppins font-light">
-              i) Delve into the Tech aspect
-              <br /> ii) Provide an opportunity to learn
+              i) Cultivate a culture of creativity.
+              <br /> ii) Promote hands-on experience and exploration.
               <br />
-              iii) Improve the experience of every student
+              iii) Empower students to drive change.
             </p>
           </div>
           <div className="gap-3 flex flex-col sm:w-1/3">
@@ -94,9 +94,9 @@ export default function Home() {
               WHY US
             </h1>
             <p className="text-[#777777] font-poppins font-light">
-              We understand the student's problems when they come to IITM. we
-              are here to help them from their early phase at this new
-              environment'.{" "}
+              We recognize that transitioning to a new academic institution can
+              be challenging, and we are dedicated to providing comprehensive
+              support to students as they acclimate to their environment..{" "}
             </p>
           </div>
         </div>

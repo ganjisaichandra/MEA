@@ -9,7 +9,7 @@ type eventCards = {
   time: string;
   name: string;
 }[];
-import im from "../../assets/images/Ellipse 1.png";
+import im from "../../assets/images/GC Tech Odyssey.jpg";
 
 const cards: eventCards = [
   {
@@ -60,7 +60,9 @@ export default function Page() {
       {cards.map((card, index) => (
         <div
           key={index}
-          className={`w-[95%] md:w-[70%] p-5  flex  ${index % 2 === 1 ? "justify-end" : "justify-start"}`}
+          className={`w-[90%] md:w-[80%] p-5  flex  ${
+            index % 2 === 1 ? "justify-end" : "justify-start"
+          }`}
         >
           <EventCards {...card} index={index} />
         </div>
