@@ -48,6 +48,10 @@ export default function NavBar() {
               {" "}
               <li>MEMBERS</li>
             </Link>
+            <Link href={"/Team"}>
+              {" "}
+              <li>DEV TEAM</li>
+            </Link>
           </ul>
           {/* <div> */}
           <Link href={"/Elibrary"}>
@@ -113,6 +117,11 @@ export default function NavBar() {
           <li className="side-link">
             <Link onClick={() => setIsOpen(false)} href="/Executives">
               MEMBERS
+            </Link>
+          </li>
+          <li className="side-link">
+            <Link onClick={() => setIsOpen(false)} href="/Team">
+              DEV TEAM
             </Link>
           </li>
           <Link

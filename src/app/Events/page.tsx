@@ -60,7 +60,7 @@ export default function Page() {
       {cards.map((card, index) => (
         <div
           key={index}
-          className={`w-[90%] md:w-[80%] p-5  flex  ${
+          className={`w-[95%] md:w-[70%] p-5  flex  ${
             index % 2 === 1 ? "justify-end" : "justify-start"
           }`}
         >

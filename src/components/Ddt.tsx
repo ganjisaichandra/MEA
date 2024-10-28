@@ -8,7 +8,11 @@ export default function Ddt() {
           Designing & Development Team
         </p>
         <div className="flex gap-8 flex-wrap justify-around items-center">
-          <div className="w-[15rem] rounded-xl h-[15rem] bg-black/80"></div>
+          <div className="w-[15rem] rounded-xl h-[15rem] bg-black/80">
+            <div className="p-20">
+              <p>Ganji Sai chandra</p>
+            </div>
+          </div>
           <div className="w-[15rem] rounded-xl h-[15rem] bg-black/80"></div>
           <div className="w-[15em] rounded-xl h-[15rem] bg-black/80"></div>
           <div className="w-[15em] rounded-xl h-[15rem] bg-black/80"></div>
