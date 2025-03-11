@@ -18,7 +18,7 @@ const cards: eventCards = [
     venue: "KalaBharathi",
     date: "23/2/2024",
     time: "11:00AM",
-    name: "Hello",
+    name: "Rc Car Racing",
   },
   {
     image: im,

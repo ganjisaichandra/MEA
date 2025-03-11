@@ -7,7 +7,7 @@ export default function FacultyS() {
     <div className="xrelative p-4 mb-20">
       <div className="flex relative justify-center ">
         <div className="w-full p-5">
-          <p className=" text-[2rem] sm:text-[3rem] font-metrapolis-light">
+          <p className=" text-[2rem] sm:text-[3rem] font-metrapolis-semibold justify-center">
             {" "}
             FACULTY
           </p>
